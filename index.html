@@ -19,13 +19,11 @@
             align-items: center;
             margin-bottom: 30px;
         }
-        /* 修改后的代码 */
         .header img {
-            width: 150px;
-            height: 150px;
-            border-radius: 0;   /* 或者直接删除这一行 */
+            height: 150px;      /* 只设置高度，宽度会自动缩放 */
+            width: auto;        /* 确保宽度是自动的 */
+            border-radius: 8px; 
             margin-right: 30px;
-            object-fit: cover;
         }
         .header .info {
             flex-grow: 1;
