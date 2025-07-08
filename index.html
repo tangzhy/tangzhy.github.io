@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhengyang Tang (唐正阳) - Personal Homepage</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #fdfdfd;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 30px;
+            object-fit: cover;
+        }
+        .header .info {
+            flex-grow: 1;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #111;
+        }
+        .header p {
+            font-size: 1.2em;
+            margin: 5px 0;
+            color: #555;
+        }
+        .contact-links a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: 500;
+        }
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+        h2 {
+            font-size: 1.8em;
+            color: #111;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 20px;
+        }
+        li b {
+            font-weight: 600;
+        }
+        .pub-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            display: block;
+        }
+        .authors {
+            display: block;
+            margin: 2px 0;
+            color: #555;
+        }
+        .venue {
+            display: block;
+            font-style: italic;
+            color: #777;
+        }
+        .links a {
+            margin-right: 10px;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .job-title {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        .job-meta {
+            color: #555;
+            font-style: italic;
+        }
+        .job-desc {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+        .job-desc li {
+            margin-bottom: 5px;
+            list-style-type: disc;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Section 1: Header -->
+    <div class="header">
+        <!-- !! 替换 'profile.jpg' 为你的照片文件名 !! -->
+        <img src="profile.jpg" alt="Zhengyang Tang">
+        <div class="info">
+            <h1>Zhengyang Tang (唐正阳)</h1>
+            <p>Ph.D. Candidate</p>
+            <p>School of Science and Engineering (SSE), CUHK-Shenzhen</p>
+            <p class="contact-links">
+                <a href="mailto:zhengyangtang@link.cuhk.edu.cn">Email</a> |
+                <a href="https://scholar.google.com/citations?user=2RRV0PQAAAAJ&hl=en" target="_blank">Google Scholar</a> |
+                <a href="https://github.com/tangzhy" target="_blank">GitHub</a> |
+                <a href="https://x.com/zhengyang_42" target="_blank">Twitter</a>
+            </p>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Section 2: About Me & Research -->
+    <h2>About Me</h2>
+    <p>
+        I am a Ph.D. candidate at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), advised by Prof. <a href="https://wabyking.github.io/old.html" target="_blank">Benyou Wang</a>. I've had the privilege of working with amazing teams at <b>Alibaba (Qwen Team)</b>, <b>Microsoft Research Asia (MSRA)</b>, and <b>Tencent</b>. 
+    </p>
+    <p>
+        <b>Research Interests:</b> My research focuses on enhancing the reasoning capabilities of Large Language Models (LLMs), including areas like instruction tuning, self-correction & critique, code generation, and dense retrieval.
+    </p>
+    <p>
+        <b>Plan:</b> I am actively seeking full-time research or engineering roles starting around July 2026. Feel free to reach out!
+    </p>
+
+    <!-- Section 3: Publications -->
+    <h2>Selected Publications</h2>
+    <ul>
+        <li>
+            <span class="pub-title">Enabling Scalable Oversight via Self-Evolving Critic (SCRIT)</span>
+            <span class="authors"><b>Zhengyang Tang*</b>, Ziniu Li*, Zhenyang Xiao*, et al.</span>
+            <span class="venue">The 2nd Conference on Language Modeling (COLM), 2025.</span>
+        </li>
+        <li>
+            <span class="pub-title">Second Language (Arabic) Acquisition of LLMs via Progressive Vocabulary Expansion</span>
+            <span class="authors">Jianqing Zhu*, Huang Huang*, Zhihang Lin*, Juhao Liang*, <b>Zhengyang Tang*</b>, et al.</span>
+            <span class="venue">The 63rd Annual Meeting of the Association for Computational Linguistics (ACL), 2025. (Oral & Panel)</span>
+            <span class="links"><a href="https://arxiv.org/abs/2412.12310" target="_blank">[Paper]</a> <a href="https://huggingface.co/collections/FreedomIntelligence/acegpt-v2-670e00e5f9a7754078b8dcf2" target="_blank">[Model]</a></span>
+        </li>
+        <li>
+            <span class="pub-title">MathScale: Scaling Instruction Tuning for Mathematical Reasoning</span>
+            <span class="authors"><b>Zhengyang Tang</b>, Xingxing Zhang, Benyou Wang, Furu Wei.</span>
+            <span class="venue">The 41st International Conference on Machine Learning (ICML), 2024.</span>
+            <span class="links"><a href="https://arxiv.org/abs/2403.02884" target="_blank">[Paper]</a> <a href="https://github.com/microsoft/unilm/tree/master/mathscale" target="_blank">[Code]</a></span>
+        </li>
+        <li>
+            <span class="pub-title">ORLM: Training Large Language Models for Optimization Modeling</span>
+            <span class="authors">Chenyu Huang*, <b>Zhengyang Tang*</b>, Shixi Hu, et al.</span>
+            <span class="venue">Operations Research (OR), 2025.</span>
+            <span class="links"><a href="https://pubsonline.informs.org/doi/10.1287/opre.2024.1233" target="_blank">[Paper]</a> <a href="https://github.com/Cardinal-Operations/ORLM" target="_blank">[Code]</a> <a href="https://huggingface.co/spaces/tangzhy/ORLM" target="_blank">[Demo]</a></span>
+        </li>
+        <li>
+            <span class="pub-title">Synthetic Data (Almost) from Scratch: Generalized Instruction Tuning for Language Models (GLAN)</span>
+            <span class="authors">Haoran Li*, Qingxiu Dong*, <b>Zhengyang Tang*</b>, Chaojun Wang*, et al.</span>
+            <span class="venue">Transactions on Machine Learning Research (TMLR), 2025.</span>
+            <span class="links"><a href="https://huggingface.co/papers/2402.13064" target="_blank">[Paper]</a></span>
+        </li>
+        <li>
+            <span class="pub-title">DPTDR: Deep Prompt Tuning for Dense Passage Retrieval</span>
+            <span class="authors"><b>Zhengyang Tang</b>, Benyou Wang, Ting Yao.</span>
+            <span class="venue">The 29th International Conference on Computational Linguistics (COLING), 2022.</span>
+            <span class="links"><a href="https://arxiv.org/abs/2208.11503" target="_blank">[Paper]</a> <a href="https://github.com/FreedomIntelligence/DPTDR" target="_blank">[Code]</a></span>
+        </li>
+         <li>
+            <span class="pub-title">Qwen3 Technical Report</span>
+            <span class="authors">Qwen Team (My Contribution: Tool-integrated Reasoning).</span>
+            <span class="venue">Technical Report, 2025.</span>
+            <span class="links"><a href="https://github.com/QwenLM/Qwen3/blob/main/Qwen3_Technical_Report.pdf" target="_blank">[Paper]</a> <a href="https://github.com/QwenLM/Qwen3" target="_blank">[Code]</a></span>
+        </li>
+    </ul>
+
+    <!-- Section 4: Experience -->
+    <h2>Industry Experience</h2>
+    <ul>
+        <li>
+            <div class="job-title">Tencent</div>
+            <div class="job-meta">Senior Researcher (T10) | Shanghai, China | Aug 2020 – Jan 2023</div>
+            <ul class="job-desc">
+                <li>Led R&D in semantic retrieval for large-scale Q&A systems, building foundational models for core business.</li>
+                <li>Owned the end-to-end development of a Q&A recommendation module, from algorithm design to deployment.</li>
+            </ul>
+        </li>
+        <li>
+            <div class="job-title">Alibaba Group</div>
+            <div class="job-meta">Algorithm Engineer II (P6) | Hangzhou, China | May 2019 - Aug 2020</div>
+            <ul class="job-desc">
+                <li>Developed re-ranking and MRC models for a commercial search engine's Q&A service.</li>
+                <li>Leveraged text generation techniques to enhance sparse retrieval and automate document tagging.</li>
+            </ul>
+        </li>
+        <li>
+            <div class="job-title">CreditX Technology</div>
+            <div class="job-meta">Algorithm Engineer | Shanghai, China | Aug 2016 - May 2019</div>
+            <ul class="job-desc">
+                <li>Engineered core risk control model for a major bank, achieving a KS score of 0.5+ with an ensemble LightGBM model.</li>
+                <li>Designed a graph-based fraud detection system that increased precision of anomaly detection by over 2000%.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Section 5: Talks & Media -->
+    <h2>Invited Talks & Media</h2>
+    <ul>
+        <li>
+            <b>Invited Talk at ICML 2024:</b> "MathScale: Scaling Instruction Tuning for Mathematical Reasoning".
+            <span class="links"><a href="https://icml.cc/media/icml-2024/Slides/34329_u32UI5P.pdf" target="_blank">[Slides]</a></span>
+        </li>
+        <li>
+            <b>Invited Talk at Baidu Search (2022):</b> "DPTDR: Deep Prompt Tuning for Dense Passage Retrieval".
+        </li>
+        <li>
+            <b>Media Coverage for ORLM:</b> Featured by <a href="https://mp.weixin.qq.com/s/AFtYN1D8yTormdDhx-_Avw" target="_blank">Cardinal-AI</a> and <a href="https://mp.weixin.qq.com/s/qL1K2T2eAe7sNcGcG3VuSg" target="_blank">CUHK-Shenzhen</a>.
+        </li>
+    </ul>
+    
+    <!-- Section 6: Patents -->
+    <h2>Patents</h2>
+    <ul>
+        <li>
+            A Method of Default Probability Prediction Based on Non-Structural Data Using Deep Learning.
+            <span class="venue">CN107992982A, 2018.</span>
+            <span class="links"><a href="https://patents.google.com/patent/CN107992982A/en" target="_blank">[Link]</a></span>
+        </li>
+    </ul>
+    
+    <!-- Section 7: Awards -->
+    <h2>Honors & Awards</h2>
+    <ul>
+        <li><b>Runner-up (2nd Place / 793)</b>, LIC 2022 Passage-Ranking Competition.</li>
+        <li><b>Ranked 3rd</b>, Official MS MARCO Passage Ranking Leaderboard, 2022.</li>
+    </ul>
+
+</body>
+</html>
