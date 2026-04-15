@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zhengyang Tang (唐正阳)</title>
-    <meta name="description" content="Zhengyang Tang (唐正阳), specializing in Large Language Models (LLMs). View my publications, experiences, and research interests.">
+    <meta name="description" content="Zhengyang Tang (唐正阳), specializing in agentic systems, large language models, and evaluation. View my publications, experiences, and research interests.">
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
@@ -125,7 +125,7 @@
             <p>School of Science and Engineering (SSE), CUHK-Shenzhen</p>
             <p class="contact-links">
                 <a href="mailto:zhengyangtang@link.cuhk.edu.cn">Email</a> |
-                <a href="https://scholar.google.com/citations?user=2RRV0PQAAAAJ&hl=en" target="_blank">Google Scholar</a> |
+                <a href="https://scholar.google.com/citations?user=2RRV0PQAAAAJ&amp;hl=en" target="_blank">Google Scholar</a> |
                 <a href="https://github.com/tangzhy" target="_blank">GitHub</a> |
                 <a href="https://x.com/zhengyang_42" target="_blank">Twitter</a>
             </p>
@@ -137,14 +137,14 @@
     <!-- Section 2: About Me & Research -->
     <h2>About Me</h2>
     <p>
-        I am a Ph.D. candidate at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), advised by Prof. <a href="https://wabyking.github.io/old.html" target="_blank">Benyou Wang</a>. I've had the privilege of working with amazing teams at <b>Alibaba (Qwen Team)</b>, <b>Microsoft Research Asia (MSRA)</b>, and <b>Tencent</b>. 
+        I am a Ph.D. candidate at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), fortunately advised by Prof. <a href="https://wabyking.github.io/old.html" target="_blank">Benyou Wang</a> and co-supervised by <a href="https://mingyan08.github.io/" target="_blank">Ming Yan</a>. I've had the privilege of working with amazing teams at <b>Tencent Hunyuan Team</b>, <b>Kimi Team</b>, <b>Qwen Team</b>, and <b>MSRA GenAI Group</b>.
     </p>
     <div>
-        <p><b>Research:</b> My research focuses on developing intelligent <b>agents</b> capable of complex reasoning and self-improvement. I pioneer agentic frameworks that leverage <b>reinforcement learning (RL)</b> for tool-integrated tasks in my work on <b>CoRT</b> (NeurIPS'25) and <b>STORM</b>. To enable self-improvement, my <b>SCRIT</b> framework (COLM'25) introduces a self-evolving critique model—a form of <b>generative reward model</b>—for scalable oversight without external supervision.</p>
-        <p>My research program also establishes the foundations for these advanced models. I have designed novel instruction tuning frameworks—<b>MathScale</b> (ICML'24), <b>GLAN</b> (TMLR'25), and <b>ALAN</b> (ACL'25)—to generate high-quality training data at scale. Additionally, my work on <b>DPTDR</b> (COLING'22) ensures these agents can access information efficiently, achieving top rankings on competitive benchmarks.</p>
+        <p><b>Research:</b> My current research centers on <b>agentic systems</b> that can perceive, reason, and act in real environments. I am especially interested in <b>coding agents</b>, <b>computer-use agents</b>, and <b>phone-use agents</b>, with an emphasis on making them more capable, reliable, and open.</p>
+        <p>On the capability side, I study <b>tool-integrated reasoning</b>, <b>agent mid-training</b>, and <b>reinforcement learning (RL)</b> for complex multi-step tasks, as reflected in works such as <b>CoRT</b>, <b>STORM</b>, and <b>SCRIT</b>. On the evaluation side, I care about benchmarks and auditing frameworks that measure not only task success, but also <b>privacy</b>, <b>reliability</b>, and <b>generalization</b>, including my recent work <b>MyPhoneBench</b>. More broadly, I am interested in open and reproducible approaches that help break the wall of <b>closed-source distillation</b>.</p>
     </div>
     <p>
-        I am actively seeking full-time research or engineering roles starting around July 2026. Feel free to reach out!
+        I am actively seeking full-time research or engineering roles starting around July 2026. I also welcome students interested in these topics; feel free to send your CV to my email.
     </p>
 
     <!-- Section 3: Publications -->
@@ -152,9 +152,21 @@
     <ul>
         <li>
             <span class="pub-title">Qwen3 Technical Report</span>
-            <span class="authors">Qwen Team (My Contribution: Tool-integrated Reasoning).</span>
+            <span class="authors">Qwen Team (including <b>Zhengyang Tang</b>).</span>
             <span class="venue">Technical Report, 2025.</span>
             <span class="links"><a href="https://github.com/QwenLM/Qwen3/blob/main/Qwen3_Technical_Report.pdf" target="_blank">[Paper]</a> <a href="https://github.com/QwenLM/Qwen3" target="_blank">[Code]</a></span>
+        </li>
+        <li>
+            <span class="pub-title">Kimi K2.5: Visual Agentic Intelligence</span>
+            <span class="authors">Kimi Team (including <b>Zhengyang Tang</b>).</span>
+            <span class="venue">Technical Report, 2026.</span>
+            <span class="links"><a href="https://arxiv.org/abs/2602.02276" target="_blank">[Paper]</a> <a href="https://github.com/MoonshotAI/Kimi-K2.5" target="_blank">[Code]</a></span>
+        </li>
+        <li>
+            <span class="pub-title">Do Phone-Use Agents Respect Your Privacy?</span>
+            <span class="authors"><b>Zhengyang Tang</b>, Ke Ji, Xidong Wang, Zihan Ye, Xinyuan Wang, Yiduo Guo, Ziniu Li, Chenxin Li, Jingyuan Hu, Shunian Chen, Tongxu Luo, Jiaxi Bi, Zeyu Qin, Shaobo Wang, Xin Lai, Pengyuan Lyu, Junyi Li, Can Xu, Chengquan Zhang, Han Hu, Ming Yan, Benyou Wang.</span>
+            <span class="venue">arXiv preprint, 2026.</span>
+            <span class="links"><a href="https://arxiv.org/abs/2604.00986" target="_blank">[Paper]</a> <a href="https://mp.weixin.qq.com/s/0uqLRepCABA7ptOAPXjDZA" target="_blank">[Chinese Blog]</a> <a href="https://www.notion.so/Do-Phone-Use-Agents-Respect-Your-Privacy-337f1aa81ec6808daf3ad88b6baecd67" target="_blank">[English Blog]</a> <a href="https://github.com/FreedomIntelligence/MyPhoneBench" target="_blank">[Code]</a></span>
         </li>
         <li>
             <span class="pub-title">CALM Before the STORM: Unlocking Native Reasoning for Optimization Modeling</span>
@@ -169,7 +181,7 @@
             <span class="links"><a href="https://arxiv.org/abs/2506.09820" target="_blank">[Paper]</a></span>
         </li>
         <li>
-            <span class="pub-title">Self-Evolving Critique Abilities in Large Language Models (SCRIT))</span>
+            <span class="pub-title">Self-Evolving Critique Abilities in Large Language Models (SCRIT)</span>
             <span class="authors"><b>Zhengyang Tang*</b>, Ziniu Li*, Zhenyang Xiao*, Tian Ding, Ruoyu Sun, Benyou Wang, Dayiheng Liu, Fei Huang, Tianyu Liu, Bowen Yu, Junyang Lin.</span>
             <span class="venue">The 2nd Conference on Language Modeling (COLM), 2025.</span>
             <span class="links"><a href="https://huggingface.co/papers/2501.05727" target="_blank">[Paper]</a></span>
@@ -177,7 +189,7 @@
         <li>
             <span class="pub-title">Second Language (Arabic) Acquisition of LLMs via Progressive Vocabulary Expansion</span>
             <span class="authors">Jianqing Zhu*, Huang Huang*, Zhihang Lin*, Juhao Liang*, <b>Zhengyang Tang*</b>, Khalid Almubarak, Abdulmohsen Alharthik, Bang An, Juncai He, Xiangbo Wu, Fei Yu, Junying Chen, Zhuoheng Ma, Yuhao Du, He Zhang, Emad A. Alghamdi, Lian Zhang, Ruoyu Sun, Haizhou Li, Benyou Wang, Jinchao Xu.</span>
-            <span class="venue">The 63rd Annual Meeting of the Association for Computational Linguistics (ACL), 2025. (Oral & Panel)</span>
+            <span class="venue">The 63rd Annual Meeting of the Association for Computational Linguistics (ACL), 2025. (Oral &amp; Panel)</span>
             <span class="links"><a href="https://arxiv.org/abs/2412.12310" target="_blank">[Paper]</a> <a href="https://huggingface.co/collections/FreedomIntelligence/acegpt-v2-670e00e5f9a7754078b8dcf2" target="_blank">[Model]</a></span>
         </li>
         <li>
@@ -210,16 +222,23 @@
     <h2>Experiences</h2>
     <ul>
         <li class="exp-item">
-            <div class="main-line">Oct 2024 - Present, <b>Research Intern</b>, Qwen Team, Alibaba.</div>
+            <div class="main-line">Mar 2026 - Present, <b>Qingyun Intern</b>, Hunyuan Team, Tencent.</div>
+        </li>
+        <li class="exp-item">
+            <div class="main-line">Dec 2025 - Mar 2026, <b>Research Intern</b>, Moonshot AI (Kimi).</div>
+            <div class="sub-line">Mentor: <a href="https://tyliupku.github.io/" target="_blank">Tianyu Liu</a></div>
+        </li>
+        <li class="exp-item">
+            <div class="main-line">Oct 2024 - Dec 2025, <b>Research Intern</b>, Qwen Team, Alibaba.</div>
             <div class="sub-line">Mentor: <a href="https://dayihengliu.github.io/" target="_blank">Dayiheng Liu</a></div>
         </li>
         <li class="exp-item">
-            <div class="main-line">Jun 2023 - Dec 2023, <b>Research Intern</b>, Microsoft Research Asia (MSRA).</div>
+            <div class="main-line">Jun 2023 - Dec 2023, <b>Stars of Tomorrow Intern</b>, Microsoft Research Asia (MSRA).</div>
             <div class="sub-line">Mentors: <a href="https://xingxingzhang.github.io/" target="_blank">Xingxing Zhang</a>; <a href="https://thegenerality.com/" target="_blank">Furu Wei</a></div>
         </li>
         <li class="exp-item">
             <div class="main-line">Jan 2023 - Present, <b>Ph.D. Candidate</b>, The Chinese University of Hong Kong, Shenzhen.</div>
-            <div class="sub-line">Supervisor: <a href="https://wabyking.github.io/old.html" target="_blank">Prof. Benyou Wang</a></div>
+            <div class="sub-line">Supervisor: <a href="https://wabyking.github.io/old.html" target="_blank">Prof. Benyou Wang</a>; Co-supervisor: <a href="https://mingyan08.github.io/" target="_blank">Ming Yan</a></div>
         </li>
         <li class="exp-item">
             <div class="main-line">Aug 2020 - Jan 2023, <b>Senior Researcher (T10)</b>, Tencent.</div>
@@ -232,7 +251,7 @@
         </li>
         <li class="exp-item">
             <div class="main-line">Aug 2016 - May 2019, <b>Algorithm Engineer</b>, CreditX Technology.</div>
-            <div class="sub-line">Mentor: <a href="https://scholar.google.com/citations?user=rRCDU6UAAAAJ&hl=zh-CN" target="_blank">Mingjie Zhu</a></div>
+            <div class="sub-line">Mentor: <a href="https://scholar.google.com/citations?user=rRCDU6UAAAAJ&amp;hl=zh-CN" target="_blank">Mingjie Zhu</a></div>
         </li>
         <li class="exp-item">
             <div class="main-line">Sep 2012 - Jul 2016, <b>Bachelor of Engineering</b>, Tongji University.</div>
@@ -240,7 +259,7 @@
     </ul>
 
     <!-- Section 5: Talks & Media -->
-    <h2>Invited Talks & Media</h2>
+    <h2>Invited Talks &amp; Media</h2>
     <ul>
         <li>
             <b>Media Coverage for ORLM:</b> Featured by <a href="https://mp.weixin.qq.com/s/AFtYN1D8yTormdDhx-_Avw" target="_blank">Cardinal-AI</a> and <a href="https://mp.weixin.qq.com/s/qL1K2T2eAe7sNcGcG3VuSg" target="_blank">CUHK-Shenzhen</a>.
@@ -265,7 +284,7 @@
     </ul>
     
     <!-- Section 7: Awards -->
-    <h2>Honors & Awards</h2>
+    <h2>Honors &amp; Awards</h2>
     <ul>
         <li><b>Runner-up (2nd Place / 793)</b>, <a href="https://aistudio.baidu.com/competition/detail/157/0/leaderboard" target="_blank">LIC 2022 Passage-Ranking Competition</a>.</li>
         <li><b>Ranked 3rd</b>, <a href="https://microsoft.github.io/msmarco/" target="_blank">Official MS MARCO Passage Ranking Leaderboard</a>, 2022.</li>
@@ -276,7 +295,7 @@
     <ul>
         <li>
             <!-- 使用 GitHub Pages 的直接链接 -->
-            My CV is <a href="https://tangzhy.github.io/CV_Zhengyang_Tang.pdf" target="_blank">here</a>
+            My CV is <a href="https://tangzhy.github.io/CV_Zhengyang_Tang.pdf" target="_blank">here</a> (last updated: Oct 2025).
         </li>
     </ul>
 
