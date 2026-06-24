@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zhengyang Tang</title>
-    <meta name="description" content="Zhengyang Tang is a Ph.D. candidate at CUHK-Shenzhen working on agentic systems, tool use, and evaluation.">
+    <meta name="description" content="Zhengyang Tang is a Ph.D. candidate at CUHK-Shenzhen working on executable and verifiable agents across reasoning, coding, and phone-use environments.">
     <style>
         body {
             margin: 0;
@@ -136,7 +136,7 @@
         <header>
             <h1>Zhengyang Tang</h1>
             <p class="affiliation">Ph.D. Candidate, The Chinese University of Hong Kong, Shenzhen</p>
-            <p class="tagline">I study agentic systems that interact with real environments, and how to evaluate them.</p>
+            <p class="tagline">I build executable and verifiable agents for reasoning, coding, and phone-use environments.</p>
             <p class="links">
                 <a href="mailto:zhengyangtang@link.cuhk.edu.cn">Email</a>
                 <span class="divider">/</span>
@@ -155,18 +155,35 @@
                 I am a Ph.D. candidate at The Chinese University of Hong Kong, Shenzhen, advised by
                 Prof. <a href="https://wabyking.github.io/old.html">Benyou Wang</a> and co-supervised by
                 <a href="https://mingyan08.github.io/">Ming Yan</a>.
-                My research focuses on agentic systems built with large language models,
-                especially systems that can perceive, reason, and act in real environments.
+                My research focuses on executable and verifiable agentic systems built with large language models:
+                systems that can reason, use tools, write code, and act in realistic environments.
             </p>
             <p>
-                I am especially interested in coding agents, computer-use agents, and phone-use agents,
-                with a focus on making them more capable, reliable, and privacy-aware in practical settings.
+                I am especially interested in scalable post-training, environment construction, harness engineering,
+                and verifiable feedback for reasoning agents, executable coding agents, and phone-use agents.
             </p>
             <p>
                 I have had the opportunity to work with teams including
                 <b>Tencent Hunyuan</b>, <b>Moonshot AI (Kimi)</b>, <b>Qwen</b>,
                 and <b>Microsoft Research Asia</b>.
             </p>
+        </section>
+
+        <!-- Research Themes -->
+        <section>
+            <h2>Research Themes</h2>
+            <div class="item">
+                <div class="item-title">Reasoning Agents and Self-Improvement</div>
+                <div class="item-detail">Scalable data generation, post-training, critique, tool use, and capability acquisition for reasoning models, including Qwen3, MathScale, GLAN, ALAN, SCRIT, and CoRT.</div>
+            </div>
+            <div class="item">
+                <div class="item-title">Executable Coding and Tool-Use Agents</div>
+                <div class="item-detail">Agents and benchmarks where success is checked by execution, artifacts, solver traces, and interactive behavior, including Kimi K2.5, ORLM, CALM/STORM, and GameCraft-Bench.</div>
+            </div>
+            <div class="item">
+                <div class="item-title">Phone-Use Agents and Mobile Environments</div>
+                <div class="item-detail">Training environments, mixed-action harnesses, and safety/privacy benchmarks for reliable phone-use agents, including PhoneBuddy, PhoneWorld, PhoneHarness, PhonePrivacy, and PhoneSafety.</div>
+            </div>
         </section>
 
         <!-- Selected Publications -->
@@ -178,6 +195,58 @@
             </p>
 
             <div class="pub-entry">
+                <div class="pub-title">Kimi K2.5: Visual Agentic Intelligence</div>
+                <div class="pub-authors">Kimi Team (including <b>Zhengyang Tang</b>)</div>
+                <div class="pub-venue">Technical Report, 2026</div>
+                <div class="pub-links">
+                    <a href="https://arxiv.org/abs/2602.02276">[Paper]</a>
+                    <a href="https://github.com/MoonshotAI/Kimi-K2.5">[Code]</a>
+                </div>
+            </div>
+
+            <div class="pub-entry">
+                <div class="pub-title">Qwen3 Technical Report</div>
+                <div class="pub-authors">Qwen Team (including <b>Zhengyang Tang</b>)</div>
+                <div class="pub-venue">Technical Report, 2025</div>
+                <div class="pub-links">
+                    <a href="https://github.com/QwenLM/Qwen3/blob/main/Qwen3_Technical_Report.pdf">[Paper]</a>
+                    <a href="https://github.com/QwenLM/Qwen3">[Code]</a>
+                </div>
+            </div>
+
+            <div class="pub-entry">
+                <div class="pub-title">PhoneBuddy: Training Open Models for Agentic Phone Use</div>
+                <div class="pub-authors"><b>Zhengyang Tang</b>*, Xin Lai*, Pengyuan Lyu*, Xinyuan Wang*, Tianyi Bai*, Chenxin Li*, et al.</div>
+                <div class="pub-venue">Preprint, 2026</div>
+                <div class="pub-links">
+                    <a href="https://phonebuddyai.github.io/assets/paper.pdf">[Paper]</a>
+                    <a href="https://phonebuddyai.github.io/">[Project]</a>
+                    <a href="https://github.com/PhoneBuddyAI/phonebuddy">[Code]</a>
+                </div>
+            </div>
+
+            <div class="pub-entry">
+                <div class="pub-title">GameCraft-Bench: Can Agents Build Playable Games End-to-End in a Real Game Engine?</div>
+                <div class="pub-authors">Tongxu Luo*, Rongsheng Wang*, Jiaxi Bi*, Chenming Xu*, <b>Zhengyang Tang</b>*, et al.</div>
+                <div class="pub-venue">arXiv Preprint, 2026</div>
+                <div class="pub-links">
+                    <a href="https://arxiv.org/abs/2606.17861">[Paper]</a>
+                    <a href="https://tongxuluo.github.io/gamecraft-bench-website/">[Project]</a>
+                    <a href="https://github.com/tongxuluo/gamecraft-bench">[Code]</a>
+                </div>
+            </div>
+
+            <div class="pub-entry">
+                <div class="pub-title">PhoneWorld: Scaling Phone-Use Agent Environments</div>
+                <div class="pub-authors"><b>Zhengyang Tang</b>*, Yuxuan Liu*, Xin Lai*, Junyi Li*, et al.</div>
+                <div class="pub-venue">arXiv Preprint, 2026</div>
+                <div class="pub-links">
+                    <a href="https://arxiv.org/abs/2605.29486">[Paper]</a>
+                    <a href="https://mp.weixin.qq.com/s/uzasS6q6LAwX8wLXD7KzeA">[Chinese Blog]</a>
+                </div>
+            </div>
+
+            <div class="pub-entry">
                 <div class="pub-title">Do Phone-Use Agents Respect Your Privacy?</div>
                 <div class="pub-authors"><b>Zhengyang Tang</b>*, Ke Ji*, Xidong Wang*, Zihan Ye*, Xinyuan Wang, Yiduo Guo, et al.</div>
                 <div class="pub-venue">arXiv Preprint, 2026</div>
@@ -186,6 +255,27 @@
                     <a href="https://mp.weixin.qq.com/s/0uqLRepCABA7ptOAPXjDZA">[Chinese Blog]</a>
                     <a href="https://www.notion.so/Do-Phone-Use-Agents-Respect-Your-Privacy-337f1aa81ec6808daf3ad88b6baecd67">[English Blog]</a>
                     <a href="https://github.com/FreedomIntelligence/MyPhoneBench">[Code]</a>
+                </div>
+            </div>
+
+            <div class="pub-entry">
+                <div class="pub-title">Safe, or Simply Incapable? Rethinking Safety Evaluation for Phone-Use Agents</div>
+                <div class="pub-authors"><b>Zhengyang Tang</b>*, Yi Zhang*, Chenxin Li, Xin Lai, et al.</div>
+                <div class="pub-venue">arXiv Preprint, 2026</div>
+                <div class="pub-links">
+                    <a href="https://arxiv.org/abs/2605.07630">[Paper]</a>
+                    <a href="https://github.com/tangzhy/PhoneSafety">[Code]</a>
+                </div>
+            </div>
+
+            <div class="pub-entry">
+                <div class="pub-title">PhoneHarness: A Mixed-Action Orchestration Harness and Benchmark for Phone Agents across CLI, GUI, and MCP Tools</div>
+                <div class="pub-authors">Jason*, Zhengyao Fang*, <b>Zhengyang Tang</b>*, Pengyuan Lyu*, et al.</div>
+                <div class="pub-venue">Preprint, 2026</div>
+                <div class="pub-links">
+                    <a href="https://phoneharness.github.io/assets/paper.pdf">[Paper]</a>
+                    <a href="https://phoneharness.github.io/">[Project]</a>
+                    <a href="https://github.com/PhoneHarness/phoneharness">[Code]</a>
                 </div>
             </div>
 
@@ -270,25 +360,6 @@
                 </div>
             </div>
 
-            <div class="pub-entry">
-                <div class="pub-title">Kimi K2.5: Visual Agentic Intelligence</div>
-                <div class="pub-authors">Kimi Team (including <b>Zhengyang Tang</b>)</div>
-                <div class="pub-venue">Technical Report, 2026</div>
-                <div class="pub-links">
-                    <a href="https://arxiv.org/abs/2602.02276">[Paper]</a>
-                    <a href="https://github.com/MoonshotAI/Kimi-K2.5">[Code]</a>
-                </div>
-            </div>
-
-            <div class="pub-entry">
-                <div class="pub-title">Qwen3 Technical Report</div>
-                <div class="pub-authors">Qwen Team (including <b>Zhengyang Tang</b>)</div>
-                <div class="pub-venue">Technical Report, 2025</div>
-                <div class="pub-links">
-                    <a href="https://github.com/QwenLM/Qwen3/blob/main/Qwen3_Technical_Report.pdf">[Paper]</a>
-                    <a href="https://github.com/QwenLM/Qwen3">[Code]</a>
-                </div>
-            </div>
         </section>
 
         <!-- Talks -->
